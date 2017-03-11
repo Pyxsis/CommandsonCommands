@@ -1,0 +1,16 @@
+# VARIABLES
+# Some messages support:
+# %senderdisplayname - sender's displayname 
+# %sendername - sender's name
+# %senderlocation - sender's current location
+
+Commands:
+  # the command the player uses to trigger the commands below to be executed
+  '/rankup':
+    # set to something they'll have anyway from another plugin if none, e.g essentials.help
+    Required permissions: essentials.help
+    # set to anything other than sender and the console will execute it
+    Command executioner: sender
+    # what commands should be run?
+    Commands to execute:
+    - broadcast %sendername 100

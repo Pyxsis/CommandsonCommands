@@ -1,0 +1,10 @@
+name: CommandsOnCommands
+main: me.reparo.commandsoncommands.CommandsOnCommands
+description: Execute commands when x command is run
+author: Reparo
+version: beta-0.1
+
+commands:
+    COCConfig:
+        usage: /<command> 
+        description: Set up a default config
